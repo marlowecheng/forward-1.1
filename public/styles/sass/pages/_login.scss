@@ -1,0 +1,49 @@
+@use '../config';
+
+.login {
+    h1 {
+        grid-area: 1 / 5 / 2 / span 4;
+    }
+
+    .container {
+        width: 100%;
+        grid-column: 5 / span 4;
+    }
+
+    .login-container {
+        background: config.$white;
+        padding: 2rem;
+        margin: 0 auto;
+        border-radius: 1rem;
+    }
+
+    .login-form, .form-input {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login-form {
+        margin-bottom: 1.5rem;
+    }
+
+    .form-input {
+        margin-bottom: 1.5rem;
+
+        label {
+            margin-bottom: .5rem;
+        }
+
+        input {
+            height: 3rem;
+            border: 2px grey solid;
+            width: 80%;
+            border-radius: 1rem;
+            padding: 0 1rem;
+            margin: 0 auto;
+        }
+    }
+
+    .login-links {
+        text-align: center;
+    }
+}

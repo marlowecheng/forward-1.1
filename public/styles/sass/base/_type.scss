@@ -1,0 +1,61 @@
+@use '../config';
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&family=League+Spartan:wght@400;500;600;700&display=swap');
+
+/*----------------------------------
+Headings
+----------------------------------*/
+h1, h2, h3, h4 {
+    font-family: config.$font-heading;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 3.75rem;
+}
+h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+h3 {
+    font-size: 1.5em;
+    line-height: 1.125rem;
+}
+h4 {
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+}
+
+/*----------------------------------
+Typography
+----------------------------------*/
+p, li, figcaption, label, .text-lg, .text-sm, button, a {
+    font-family: config.$font-body;
+    font-weight: 400;
+}
+
+p, li, figcaption {
+    font-size: 1rem;
+    line-height: 1.75rem;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+.text-lg {
+    font-size: 1.375rem;
+    line-height: 2.25rem;
+}
+
+.text-sm {
+    font-size: .75rem;
+    line-height: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+    color: config.$green;
+}
