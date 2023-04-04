@@ -1,0 +1,8 @@
+{  "scripts": {
+    "sass:watch": "node_modules/.bin/sass public/scss/main.scss:public/css/main.min.css --watch --style=compressed",
+    "sass:build": "node_modules/.bin/sass public/scss/main.scss:public/css/main.min.css --style=compressed"
+  },
+  "dependencies": {
+    "sass": "^1.60.0"
+  }
+}
