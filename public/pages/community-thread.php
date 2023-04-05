@@ -12,6 +12,16 @@
             <?php
                 require(get_path('public/partials/components/side-nav.php'));
             ?>
+            <section class="col-7 section-container">
+                <div class="">
+
+                </div>
+            </section>
+            <section class="col-3 section-container">
+                <div class="">
+                    
+                </div>
+            </section>
         </main>
         <?php 
             require(get_path('public/partials/global/footer.php'));
