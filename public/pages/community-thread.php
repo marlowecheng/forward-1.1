@@ -12,12 +12,17 @@
             <?php
                 require(get_path('public/partials/components/side-nav.php'));
             ?>
-            <section class="col-7 section-container">
+            <section class="no-margin active-container thread-content">
                 <div class="">
 
                 </div>
             </section>
-            <section class="col-3 section-container">
+            <section class="no-margin thread-comments">
+                <div class="">
+                    
+                </div>
+            </section>
+            <section class="no-margin thread-side">
                 <div class="">
                     
                 </div>
