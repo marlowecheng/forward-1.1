@@ -1,6 +1,6 @@
 @use '../config';
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&family=League+Spartan:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;400;600&family=Outfit:wght@700&display=swap');
 
 /*----------------------------------
 Headings
@@ -38,6 +38,16 @@ p, li, figcaption, label, .text-lg, .text-sm, button, a {
 p, li, figcaption {
     font-size: 1rem;
     line-height: 1.75rem;
+}
+
+p.txt-xl {
+    font-size: 1.5rem;
+    line-height: 1.625rem;
+}
+
+p.txt-lg {
+    font-size: 1.125rem;
+    
 }
 
 figcaption {
