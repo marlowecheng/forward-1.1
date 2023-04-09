@@ -1,2 +1,13 @@
 @use '../config';
 
+.thread-content {
+    grid-area: 1 / 3 / span 1 / span 7;
+}
+
+.thread-comments {
+    grid-area: 2 / 3 / span 1 / span 7;
+}
+
+.thread-side {
+    grid-area: 1 / auto / span 2 / span 3;
+}
