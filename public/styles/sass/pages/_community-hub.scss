@@ -1,2 +1,66 @@
 @use '../config';
 
+
+.community-card {
+    margin-top: 30px;
+
+    .community-thumb {
+        width: 300px;
+        height: 300px;
+    }
+
+    .community-card-info {
+        .community-card-tags{
+            ul {
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                margin: 16px 0;
+            }
+            .purple {
+                background-color: purple;
+                color: white;
+                padding: 0 10px;
+                border-radius: 2px;
+            }
+            .orange {
+                background-color: orange;
+                color: white;
+                padding: 0 10px;
+                border-radius: 2px;
+            }
+            .turquoise {
+                background-color: #3D8DBA;
+                color: white;
+                padding: 0 10px;
+                border-radius: 2px;
+            }
+        }
+
+        .community-card-desc {
+            margin-bottom: 1rem;
+        }
+
+        .community-card-meta {
+            p:nth-child(2) {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+            .message-icon {
+                width: 20px;
+                height: 20px;
+
+            }
+        }
+    }
+
+        .community-card-meta > *,
+        .community-card-desc > * {
+            margin-bottom: 1rem;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
