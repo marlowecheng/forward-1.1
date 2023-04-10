@@ -12,7 +12,7 @@
             <?php
                 require(get_path('public/partials/components/side-nav.php'));
             ?>
-            <section>
+            <section class="community-section">
                 <div>
                     <h1>Community Hub</h1>
                     <h2>These are the current talks in Surrrey</h2>

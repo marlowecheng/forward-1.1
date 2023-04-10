@@ -1,8 +1,11 @@
 @use '../config';
 
 
-.community-card-container {
+.community-section {
+    grid-area: 1 / 3 / 3 / 12;
+}
 
+.community-card-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
@@ -12,8 +15,8 @@
         margin-top: 30px;
 
         .community-thumb {
-            width: 340px;
-            height: 300px;
+            width: 100%;
+            height: auto;
         }
 
         .community-card-info {
