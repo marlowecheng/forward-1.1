@@ -208,7 +208,6 @@ section.bg {
 .btn {
   justify-self: center;
   align-self: center;
-  width: -moz-fit-content;
   width: fit-content;
   text-align: center;
   padding: 1rem 1.5rem;
@@ -223,10 +222,11 @@ section.bg {
   box-sizing: border-box;
   justify-self: center;
   align-self: center;
-  width: -moz-fit-content;
   width: fit-content;
   text-align: center;
   padding: 1rem 1.5rem;
+  -webkit-box-shadow: inset 0 0 0 0.2rem #00A676;
+  -moz-box-shadow: inset 0 0 0 0.2rem #00A676;
   box-shadow: inset 0 0 0 0.2rem #00A676;
   border-radius: 1rem;
 }
@@ -234,7 +234,6 @@ section.bg {
 .nav-btn {
   justify-self: center;
   align-self: center;
-  width: -moz-fit-content;
   width: fit-content;
   text-align: center;
   padding: 0.5rem 1.5rem;
@@ -249,10 +248,11 @@ section.bg {
   box-sizing: border-box;
   justify-self: center;
   align-self: center;
-  width: -moz-fit-content;
   width: fit-content;
   text-align: center;
   padding: 0.5rem 1.5rem;
+  -webkit-box-shadow: inset 0 0 0 0.2rem #00A676;
+  -moz-box-shadow: inset 0 0 0 0.2rem #00A676;
   box-shadow: inset 0 0 0 0.2rem #00A676;
   border-radius: 1rem;
 }
@@ -346,8 +346,7 @@ section.bg {
   margin: 0 auto;
   border-radius: 16px;
   display: block;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .project-card ul {
@@ -409,8 +408,7 @@ header .header-content .global-nav .img-container {
   height: 2.5rem;
   background: grey;
   border-radius: 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   aspect-ratio: 1/1;
   border: 2px solid #00A676;
 }
@@ -482,8 +480,7 @@ footer .footer-content p {
   align-self: center;
 }
 .banner img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
   aspect-ratio: 1;
   border-radius: 1rem;
@@ -515,8 +512,7 @@ footer .footer-content p {
 
 .testimonials img {
   max-width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   aspect-ratio: 1/1;
 }
 .testimonials li {
@@ -760,6 +756,7 @@ input[type=text] {
   border-radius: 16px;
   padding: 45px 74px;
   min-width: 600px;
+  -webkit-box-shadow: 0px 2px 12px 5px rgba(0, 0, 0, 0.08);
   box-shadow: 0px 2px 12px 5px rgba(0, 0, 0, 0.08);
 }
 .profile-content .profile-card .card-information {
@@ -772,8 +769,7 @@ input[type=text] {
   width: 152px;
   height: 152px;
   border-radius: 16px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   aspect-ratio: 1/1;
 }
 
@@ -791,8 +787,8 @@ input[type=text] {
   margin-top: 30px;
 }
 .community-card .community-thumb {
-  width: 340px;
-  height: 300px;
+  width: 100%;
+  height: auto;
 }
 .community-card .community-card-info {
   padding: 0 14px;
@@ -846,4 +842,4 @@ input[type=text] {
 .community-card .community-card-meta > *:last-child,
 .community-card .community-card-desc > *:last-child {
   margin-bottom: 0;
-}/*# sourceMappingURL=main.css.map */
+}
