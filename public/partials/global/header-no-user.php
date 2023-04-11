@@ -1,8 +1,8 @@
 <header>
     <!-- Logged Out Header -->
-    <div class="header-content">
-    <a href="<?php echo get_public_url('/index.php'); ?>" title="Home">
-            <img class="logo" src="<?php echo get_public_url('images/forward-logo-horizontal.svg'); ?>" alt="Forward Logo">
+    <div class="header-content grid">
+    <a href="<?php echo get_public_url('/index.php'); ?>" title="Home" class="logo">
+            <img src="<?php echo get_public_url('images/forward-logo-horizontal.svg'); ?>" alt="Forward Logo">
         </a>
         <nav>
             <ul class="global-nav">

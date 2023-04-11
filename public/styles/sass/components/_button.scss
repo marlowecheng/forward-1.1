@@ -27,6 +27,8 @@
 
     > a {
         color: config.$white;
+        font-size: 1rem;
+        line-height: 1.625rem;
     }
 }
 
@@ -37,11 +39,14 @@
     width: fit-content;
     text-align: center;
     padding: 1rem 1.5rem;
-    // border: .2rem solid config.$gradient-backup;
-    -webkit-box-shadow:inset 0 0 0 .2rem config.$green;
-    -moz-box-shadow:inset 0 0 0 .2rem config.$green;
     box-shadow:inset 0 0 0 .2rem config.$green;
     border-radius: 0.06rem;
+
+    > a {
+        color: config.$black;
+        font-size: 1rem;
+        line-height: 1.625rem;
+    }
 }
 
 .nav-btn {
@@ -55,6 +60,8 @@
 
     > a {
         color: config.$white;
+        font-size: 1rem;
+        line-height: 1.625rem;
     }
 }
 
@@ -64,14 +71,19 @@
     align-self: center;
     width: fit-content;
     text-align: center;
-    padding: .5rem 1.5rem;
-    -webkit-box-shadow:inset 0 0 0 .2rem config.$green;
-    -moz-box-shadow:inset 0 0 0 .2rem config.$green;
     box-shadow:inset 0 0 0 .2rem config.$green;
+    padding: .5rem 1.5rem;
     border-radius: 0.06rem;
+
+    > a {
+        color: config.$green;
+        font-size: 1rem;
+        line-height: 1.625rem;
+    }
 }
 
-.btn-bwd {
+.btn-bwd,
+.btn-fwd {
     width: fit-content;
     max-width: 8.5rem;
     padding: 0.625rem 1.875rem;
@@ -92,8 +104,4 @@
             padding-right: .5rem;
         }
     }
-}
-
-.btn-fwd {
-
 }

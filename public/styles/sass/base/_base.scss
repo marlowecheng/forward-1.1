@@ -10,22 +10,21 @@ section {
     margin: 2.5rem 1.25rem;
 }
 
-
 section.bg {
     background-color: #fecaca;
     padding: 6rem 0;
 }
 
 .container {
-    max-width: 80rem;
+    //max-width: 80rem;
     margin: 0 auto;
-    // padding: 0 1rem;
 }
 
 .grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 2.5rem;
+    margin: 0 1.25rem;
 }
 
 .grid-row {

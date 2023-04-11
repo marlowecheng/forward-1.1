@@ -30,7 +30,7 @@ h4 {
 /*----------------------------------
 Typography
 ----------------------------------*/
-p, li, figcaption, label, .text-lg, .text-sm, button, a {
+p, li, figcaption, label, button, a {
     font-family: config.$font-body;
     font-weight: 400;
 }
@@ -40,28 +40,28 @@ p, li, figcaption {
     line-height: 1.75rem;
 }
 
-p.txt-xl {
+.txt-xl {
     font-size: 1.5rem;
     line-height: 1.625rem;
 }
 
-p.txt-lg {
+.txt-lg {
     font-size: 1.125rem;
-    
+    line-height: 1.625rem;
+}
+
+.txt-sm {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+}
+
+.txt-xs {
+    font-size: 0.75rem;
+    line-height: 0.875rem;
 }
 
 figcaption {
     font-style: italic;
-}
-
-.text-lg {
-    font-size: 1.375rem;
-    line-height: 2.25rem;
-}
-
-.text-sm {
-    font-size: .75rem;
-    line-height: 1.5rem;
 }
 
 a {

@@ -7,10 +7,6 @@
 @use 'base/base';
 @use 'base/utility';
 
-@use 'components/button';
-@use 'components/mentor-card';
-@use 'components/project-card';
-
 @use 'layout/header';
 @use 'layout/side-nav';
 @use 'layout/footer';
@@ -24,3 +20,7 @@
 @use 'pages/profile-page';
 @use 'pages/community-hub';
 @use 'pages/community-thread';
+
+@use 'components/button';
+@use 'components/mentor-card';
+@use 'components/project-card';

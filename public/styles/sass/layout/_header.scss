@@ -22,24 +22,43 @@
 
 
 header {
-    width: 100%;
     border-bottom: 0.063rem solid config.$black;
 
+    a {
+        font-size: 1.5rem;
+        line-height: 1.625rem;
+    }
+
     .header-content {
-        margin: 1.5rem 5rem;
-        display: flex;
+        height: 6.25rem;
+        grid-column: 1 / span 12;
         justify-content: space-between;
         align-items: center;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+
         .logo {
-            height: 48px;
+            grid-column: 1 / span 2;
+            width: fit-content;
+
+            > img {
+                height: 3rem;
+            }
+        }
+
+        nav {
+            grid-column: 3 / span 10;
         }
 
         .global-nav {
+            width: 100%;
             display: flex;
+            justify-content: end;
             align-items: center;
-            gap: 16px;
+            gap: 2rem;
+
             .username{
-                a{
+                a {
                     display: flex;
                     align-items: center;
                     color: config.$black;

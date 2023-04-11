@@ -24,7 +24,7 @@
                         </div>
                         <div class="head-icons">
                             <i data-feather="bookmark"></i>
-                            <i data-feather="share-2"></i>
+                            <i data-feather="share"></i>
                         </div>
                     </div>
                 </div>
