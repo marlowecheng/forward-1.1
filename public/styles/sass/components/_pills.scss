@@ -1,34 +1,58 @@
 @use '../config';
 
-.community-card-tags{
-    ul {
+.filter-tags {
+    ul{
         display: flex;
-        flex-direction: row;
-        gap: 10px;
-        margin: 16px 0;
-    }
-    .purple {
-        background-color: purple;
-        color: white;
-        padding: 0 10px;
-        border-radius: 2px;
-    }
-    .orange {
-        background-color: orange;
-        color: white;
-        padding: 0 10px;
-        border-radius: 2px;
-    }
-    .turquoise {
-        background-color: #3D8DBA;
-        color: white;
-        padding: 0 10px;
-        border-radius: 2px;
-    }
-    .light-green {
-        background-color: #6cc69f;
-        color: white;
-        padding: 0 10px;
-        border-radius: 2px;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    
+        li {
+            border-radius: 0.125rem;
+            font-size: 0.75rem;
+            line-height: 0.875rem;
+
+            color: white;
+            padding: 1px 6px;
+            border-radius: 2px;
+            text-align: center;
+        }
+
+        // ui/ux
+        .purple {
+            background-color: #BB98E7;
+        }
+
+        // coding
+        .mustard {
+            background-color: #E1BF46;
+        }
+
+        // seeking advice
+        .aqua {
+            background-color: #3D8DBA;
+        }
+
+        // project management
+        .mint {
+            background-color: #90C1B3;
+        }
+
+        // venting
+        .peach {
+            background-color: #FFB571;
+        }
+        // general
+        .grass {
+            background-color: #7FAE69;
+        }
+
+        // introductions
+        .rasp {
+            background-color: #E08787;
+        }
+        // mental health
+        .grape {
+            background-color: #A3B1E4;
+        }
     }
 }
