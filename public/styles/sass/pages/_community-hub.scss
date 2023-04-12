@@ -14,47 +14,6 @@
     gap: 30px;
 }
 
-    .community-card {
-        margin-top: 30px;
-        border: 1px solid rgba(25, 25, 25, 0.05);
-
-        .community-thumb {
-            width: 100%;
-            height: auto;
-        }
-
-        .community-card-info {
-            padding: 0 14px;
-
-            .community-card-desc {
-                margin-bottom: 1rem;
-            }
-
-            .community-card-meta {
-                p:nth-child(2) {
-                    display: flex;
-                    align-items: center;
-                    gap: 10px;
-                }
-                .message-icon {
-                    width: 20px;
-                    height: 20px;
-
-                }
-            }
-        }
-
-            .community-card-meta > *,
-            .community-card-desc > * {
-                margin-bottom: 1rem;
-
-                &:last-child {
-                    margin-bottom: 0;
-                }
-            }
-        }
-
-
 .filter-container {
     grid-column: 10 / span 3;
     padding: 2rem;

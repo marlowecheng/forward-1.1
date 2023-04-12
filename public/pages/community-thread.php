@@ -50,7 +50,48 @@
                     <input type="text" class="searchTerm" placeholder="Search Community...">
                 </div>
                 <div class="more-threads">
-                    
+
+                    <div class="community-card hover-fx">
+                        <div>
+                            <img class="community-thumb" src="<?php echo get_public_url('/images/overwhelm-article.png'); ?>">
+                        </div>  
+                        <div class="community-card-info">
+                            <div class="filter-tags">
+                                <ul>
+                                    <li class="purple">UI/UX</li>
+                                    <li class="peach">Venting</li>
+                                    <li class="aqua">Seeking Advice</li>
+                                </ul>
+                            </div>
+                            <div class="community-card-desc">
+                                <h4>Feeling overwhelemed with this UI project</h4>
+                                <p>Im a new UI designer and Im feeling seriously overwhelemed....</p>
+                            </div>
+                            <div class="community-card-meta">
+                                <p>posted by @miapatel 6 hours ago</p>
+                                <p><img class="message-icon" src="<?php echo get_public_url('/images/message-square.svg') ?>">6 comments</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="community-card hover-fx">
+                        <div class="community-card-info">
+                            <div class="community-card-desc">
+                                <h4>Dealing with difficult stakeholders in project management - seeking advice</h4>
+                                <p>Hey guys, I'm a project manager, and I'm dealing with a real pain in the butt stakeholder. They keep throwing curveballs, and it's making it hard to deliver on time. I'm finding...</p>                                                                                         
+                            </div>
+                            <div class="filter-tags">
+                                <ul>
+                                    <li class="mint">Project Management</li>
+                                    <li class="aqua">Seeking Advice</li>
+                                </ul>
+                            </div>
+                            <div class="community-card-meta">
+                                <p>posted by @lukemitchellpm 1 day ago</p>
+                                <p><img class="message-icon" src="<?php echo get_public_url('/images/message-square.svg') ?>">21 comments</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
