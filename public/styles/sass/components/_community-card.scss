@@ -10,13 +10,27 @@
     }
 
     .community-card-info {
-        padding: 0 14px;
+        padding: 1rem;
 
-        .community-card-desc {
+        h4 {
+            margin-bottom: 1rem;
+        }
+
+        > div:not(:last-child) {
             margin-bottom: 1rem;
         }
 
         .community-card-meta {
+
+            p {
+                font-size: 0.75rem;
+                
+            }
+
+            p:not(:last-child) {
+                margin-bottom: 1rem;
+            }
+
             p:nth-child(2) {
                 display: flex;
                 align-items: center;
@@ -25,17 +39,11 @@
             .message-icon {
                 width: 20px;
                 height: 20px;
-
             }
         }
     }
 
-    .community-card-meta > *,
-    .community-card-desc > * {
-        margin-bottom: 1rem;
-
-        &:last-child {
-            margin-bottom: 0;
-        }
+    .no-card-img {
+        margin-top: 4rem;
     }
 }

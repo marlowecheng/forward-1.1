@@ -115,8 +115,8 @@
                 <div class="filter-search-bar">
                     <input type="text" class="searchTerm" placeholder="Search Community...">
                 </div>
-                <p>Filters: </p>
                 <div class="filter-tags">
+                    <p>Filters: </p>
                     <ul>
                         <li class="purple">UI/UX</li>
                         <li class="mustard">Coding</li>

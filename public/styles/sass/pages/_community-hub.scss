@@ -19,4 +19,12 @@
     padding: 2rem;
     margin: 2rem 0 0 0;
     height: fit-content;
+
+    > .filter-search-bar {
+        margin-bottom: 1rem;
+    }
+
+    .filter-tags > p {
+        margin-bottom: .5rem;
+    }
 }

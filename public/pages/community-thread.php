@@ -20,9 +20,12 @@
                     <div class="thread-head">
                         <div class="head-info">
                             <img src="<?php echo get_public_url('/images/rikki-soriano-profile-image.jpg'); ?>" alt="" class="avatar">
-                            <p >Posted by @lilybrowndesigns 9 hours ago</p>
-                            <div class="community-card-tags">
-                                
+                            <p>Posted by @lilybrowndesigns 9 hours ago</p>
+                            <div class="filter-tags">
+                                <ul>
+                                    <li class="purple">UI/UX</li>
+                                    <li class="aqua">Seeking Advice</li>
+                                </ul>
                             </div>
                         </div>
                         <div class="head-icons">
@@ -50,7 +53,7 @@
                     <input type="text" class="searchTerm" placeholder="Search Community...">
                 </div>
                 <div class="more-threads">
-
+                    <h4>Threads you might be interested in reading.</h4>
                     <div class="community-card hover-fx">
                         <div>
                             <img class="community-thumb" src="<?php echo get_public_url('/images/overwhelm-article.png'); ?>">
@@ -75,10 +78,10 @@
                     </div>
 
                     <div class="community-card hover-fx">
-                        <div class="community-card-info">
+                        <div class="community-card-info no-card-img">
                             <div class="community-card-desc">
                                 <h4>Dealing with difficult stakeholders in project management - seeking advice</h4>
-                                <p>Hey guys, I'm a project manager, and I'm dealing with a real pain in the butt stakeholder. They keep throwing curveballs, and it's making it hard to deliver on time. I'm finding...</p>                                                                                         
+                                <p>Hey guys, I'm a project manager, and I'm dealing with a real pain in the butt stakeholder. They keep throwing curveballs, and it's making it hard to deliver on time. I'm finding...</p>                     
                             </div>
                             <div class="filter-tags">
                                 <ul>
