@@ -34,7 +34,7 @@
                             </label>
                             <label for="network">
                                 <span>Networking</span>
-                                <input oninput="this.className = ''" id="network"" type="radio" name="main-obj">
+                                <input oninput="this.className = ''" id="network" type="radio" name="main-obj">
                             </label>
                             <label for="transition">
                                 <span>Career Transitioning</span>
