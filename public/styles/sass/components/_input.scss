@@ -1,13 +1,16 @@
 @use '../config';
 
 // Global
-input[type=text] {
+input[type=text],
+input[type=password] {
     width: 100%;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 1rem;
     border: none;
     box-shadow: inset 0 0 0 0.125rem #E9EBE8;
     border-radius: 0.125rem;
+    padding: 1rem 26px;
+    font-family: config.$font-body;
 }
 
 input:focus {
@@ -22,18 +25,4 @@ input:focus {
     label {
         margin-bottom: .5rem;
     }
-
-    input {
-        height: 3rem;
-        border: 2px grey solid;
-        width: 80%;
-        border-radius: 1rem;
-        padding: 0 1rem;
-        margin: 0 auto;
-    }
-}
-
-// Search Bar
-.filter-search-bar {
-    padding: 1.875rem;
 }
