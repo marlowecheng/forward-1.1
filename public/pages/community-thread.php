@@ -64,8 +64,8 @@
                                 </ul>
                             </div>
                             <div class="community-card-desc">
-                                <h4>Feeling overwhelemed with this UI project</h4>
-                                <p>Im a new UI designer and Im feeling seriously overwhelemed....</p>
+                                <h4>Feeling overwhelmed with this UI project</h4>
+                                <p>Im a new UI designer and Im feeling seriously overwhelmed....</p>
                             </div>
                             <div class="community-card-meta">
                                 <p>posted by @miapatel 6 hours ago</p>

@@ -48,7 +48,7 @@
                         <div class="community-card-info">
                             <div class="community-card-desc">
                                 <h4>How can I improve my UI/UX skills as a beginner designer?</h4>
-                                <p>Im a new UI designer and Im feeling seriously overwhelemed....</p>
+                                <p>Im a new UI designer and Im feeling seriously overwhelmed....</p>
                             </div>
                             <div class="filter-tags">
                                 <ul>
