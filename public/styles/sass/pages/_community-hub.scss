@@ -4,7 +4,8 @@
 .community-section {
     grid-column: span 6;
     grid-template-columns: repeat(12, 1fr);
-    gap: 2.5rem
+    gap: 2.5rem;
+    margin: 2rem 0 2.5rem 0;
 }
 
 .community-card-container {
@@ -15,7 +16,7 @@
 
     .community-card {
         margin-top: 30px;
-
+        border: 1px solid rgba(25, 25, 25, 0.05);
 
         .community-thumb {
             width: 100%;
@@ -24,38 +25,6 @@
 
         .community-card-info {
             padding: 0 14px;
-            .community-card-tags{
-                ul {
-                    display: flex;
-                    flex-direction: row;
-                    gap: 10px;
-                    margin: 16px 0;
-                }
-                .purple {
-                    background-color: purple;
-                    color: white;
-                    padding: 0 10px;
-                    border-radius: 2px;
-                }
-                .orange {
-                    background-color: orange;
-                    color: white;
-                    padding: 0 10px;
-                    border-radius: 2px;
-                }
-                .turquoise {
-                    background-color: #3D8DBA;
-                    color: white;
-                    padding: 0 10px;
-                    border-radius: 2px;
-                }
-                .light-green {
-                    background-color: #6cc69f;
-                    color: white;
-                    padding: 0 10px;
-                    border-radius: 2px;
-                }
-            }
 
             .community-card-desc {
                 margin-bottom: 1rem;
@@ -87,73 +56,8 @@
 
 
 .filter-container {
-    grid-column: span 3;
-    grid-row: auto / span 1;
-    .filter-search-bar {
-        input[type=text] {
-            width: 100%;
-            box-sizing: border-box;
-            border-radius: 0;
-            border: 2px solid #E9EBE8;
-            font-size: 16px;
-        }
-    }
-    .filter-items {
-        ul{
-            display: flex;
-            flex-wrap: wrap;
-            gap: 3px;
-            .purple {
-                background-color: #BB98E7;
-                color: white;
-                padding: 0 10px;
-                border-radius: 2px;
-                width: 35px;
-                text-align: center;
-            }
-            .mustard {
-                background-color: #E1BF46;
-                color: white;
-                padding: 0 10px;
-                border-radius: 2px;
-            }
-            .aqua {
-                background-color: #3D8DBA;
-                color: white;
-                padding: 0 10px;
-                border-radius: 2px;
-            }
-            .mint {
-                background-color: #90C1B3;
-                color: white;
-                padding: 0 10px;
-                border-radius: 2px;
-            }
-            .peach {
-                background-color: #FFB571;
-                color: white;
-                padding: 0 10px;
-                border-radius: 2px;
-            }
-            .grass {
-                background-color: #7FAE69;
-                color: white;
-                padding: 0 10px;
-                border-radius: 2px;
-            }
-            .rasp {
-                background-color: #E08787;
-                color: white;
-                padding: 0 10px;
-                border-radius: 2px;
-            }
-            .grape {
-                background-color: #A3B1E4;
-                color: white;
-                padding: 0 10px;
-                border-radius: 2px;
-            }
-        }
-        
-    }
+    grid-column: 10 / span 3;
+    padding: 2rem;
+    margin: 2rem 0 0 0;
+    height: fit-content;
 }
