@@ -112,9 +112,9 @@
             </section>
 
             <section class="filter-container">
-            <div>
+                <div>
                     <div class="filter-search-bar">
-                    <input type="text" class="searchTerm" placeholder="Search Community...">
+                        <input type="text" class="searchTerm" placeholder="Search Community...">
                     </div>
                     <p>Filters: </p>
                     <div class="filter-items">
