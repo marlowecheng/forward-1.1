@@ -8,23 +8,24 @@ Headings
 h1, h2, h3, h4 {
     font-family: config.$font-heading;
     font-weight: 600;
+    margin-bottom: 2rem;
 }
 
 h1 {
-    font-size: 3rem;
-    line-height: 3.75rem;
+    font-size: 4rem;
+    line-height: 4.125rem;
 }
 h2 {
-    font-size: 2rem;
-    line-height: 2.5rem;
+    font-size: 3rem;
+    line-height: 3.125rem;
 }
 h3 {
-    font-size: 1.5em;
-    line-height: 1.125rem;
+    font-size: 2.25em;
+    line-height: 2.375rem;
 }
 h4 {
-    font-size: 1.375rem;
-    line-height: 1.75rem;
+    font-size: 1.5rem;
+    line-height: 1.625rem;
 }
 
 /*----------------------------------
@@ -38,6 +39,11 @@ p, li, figcaption, label, button, a {
 p, li, figcaption {
     font-size: 1rem;
     line-height: 1.75rem;
+}
+
+// gives all p tags paragraph spacing except the last p of the group
+p:not(:last-child) {
+    margin-bottom: 1.875rem;
 }
 
 .txt-xl {
