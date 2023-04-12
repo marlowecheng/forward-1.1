@@ -19,7 +19,7 @@
                 </div>
                 <div class="community-card-container">
 
-                    <div class="community-card">
+                    <div class="community-card hover-fx">
                         <div>
                             <img class="community-thumb" src="<?php echo get_public_url('/images/overwhelm-article.png'); ?>">
                         </div>  
@@ -44,7 +44,7 @@
                     </div>
 
 
-                    <div class="community-card">
+                    <div class="community-card hover-fx">
                         <div class="community-card-info">
                             <div class="community-card-desc">
                                 <h4>How can I improve my UI/UX skills as a beginner designer?</h4>
@@ -64,7 +64,7 @@
                     </div>
 
 
-                    <div class="community-card">
+                    <div class="community-card hover-fx">
                         <div class="community-card-info">
                             <div class="community-card-desc">
                                 <h4>Dealing with difficult stakeholders in project management - seeking advice</h4>
@@ -84,7 +84,7 @@
                     </div>
 
 
-                    <div class="community-card">
+                    <div class="community-card hover-fx">
                         <div>
                             <img class="community-thumb" src="<?php echo get_public_url('/images/mental-health-article.png'); ?>">
                         </div>  
@@ -106,11 +106,31 @@
                             </div>
                         </div>
                     </div>
-
-
                 </div>
+
+
             </section>
 
+            <section class="filter-container">
+            <div>
+                    <div class="filter-search-bar">
+                    <input type="text" class="searchTerm" placeholder="Search Community...">
+                    </div>
+                    <p>Filters: </p>
+                    <div class="filter-items">
+                        <ul>
+                            <li class="purple">UI/UX</li>
+                            <li class="mustard">Coding</li>
+                            <li class="aqua">Seeking Advice</li>
+                            <li class="mint">Project Management</li>
+                            <li class="peach">Venting</li>
+                            <li class="grass">General</li>
+                            <li class="rasp">Introductions</li>
+                            <li class="grape">Mental Health</li>
+                        </ul>
+                    <div>
+                </div>
+            </section>
         </main>
         <?php 
             require(get_path('public/partials/global/footer.php'));

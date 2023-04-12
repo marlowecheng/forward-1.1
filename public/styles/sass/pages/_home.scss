@@ -1,8 +1,9 @@
 @use '../config';
 
 .banner {
+    padding: 0 30px;
     div h1 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
     > div, img {
         align-self: center;
@@ -33,10 +34,14 @@
 }
 
 .features {
-    
+    h1 {
+        margin-bottom: 45px;
+        margin-left: 30px;
+    }
     ul {
         margin: 6rem auto;
         gap: 3rem;
+        padding: 0 165px;
     }
     
     img {
@@ -62,9 +67,49 @@
         border-radius: 16px;
         transition: 0.3s;
         background: config.$white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .col-4 p {
+        text-align: left;
     }
     
     li:hover {
         transform: translate(0, -10px);
     }
 }
+
+    .testimonials {
+        h1 {
+            margin-bottom: 45px;
+            margin-left: 30px;
+        }
+        .testimonial-user {
+            display: flex;
+            align-items: center;
+            align-content: flex-end;
+            justify-content: start;
+            gap: 15px;
+            border-top: 1px solid;
+            padding-top: 24px;
+            margin-top: 16px;
+            
+            p:nth-child(2) {
+                display: flex;
+                align-items: start;
+                font-size: 14px;
+            }
+            .testimonial-img-icon {
+                width: 64px;
+                height: 64px;
+                border-radius: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+        }
+    }
+
