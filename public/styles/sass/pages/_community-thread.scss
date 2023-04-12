@@ -5,17 +5,31 @@
     margin-top: 2rem;
     padding: 2rem;
 
+    .btn-bwd {
+        margin-bottom: 2rem;
+    }
+
     .thread-head {
         width: 100%;
         display: flex;
         justify-content: space-between;
 
+        
+
         .head-info {
             width: 50%;
+            
+
+            img {
+                width: 3.125rem;
+                height: 3.125rem;
+                margin-bottom: .5rem;
+                border-radius: 50%;
+            }
         }
-
-
     }
+
+
 }
 
 .thread-comments {

@@ -19,13 +19,19 @@
                 <div class="thread-content">
                     <div class="thread-head">
                         <div class="head-info">
-                            <img src="" alt="" class="avatar">
+                            <img src="<?php echo get_public_url('/images/rikki-soriano-profile-image.jpg'); ?>" alt="" class="avatar">
                             <p >Posted by @lilybrowndesigns 9 hours ago</p>
+                            <div class="community-card-tags">
+                                
+                            </div>
                         </div>
                         <div class="head-icons">
                             <i data-feather="bookmark"></i>
                             <i data-feather="share"></i>
                         </div>
+                    </div>
+                    <div class="thread-body">
+                        <h2>How can I improve my UI/UX skills as a beginner designer?</h2>
                     </div>
                 </div>
             </section>
