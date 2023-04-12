@@ -13,7 +13,7 @@
                 require(get_path('public/partials/components/side-nav.php'));
             ?>
             <section class="no-margin active-container thread-main">
-                <div class="btn-bwd"><a href="" class="d-flex">
+                <div class="btn-bwd"><a href="<?php echo get_public_url('/pages/community-hub.php'); ?>" class="d-flex">
                     <i data-feather="arrow-left"></i>Go Back
                 </a></div>
                 <div class="thread-content">
