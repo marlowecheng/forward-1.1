@@ -41,7 +41,10 @@
                 </div>
             </section>
             <section class="no-margin thread-side">
-                <div class="">
+                <div class="filter-search-bar">
+                    <input type="text" class="searchTerm" placeholder="Search Community...">
+                </div>
+                <div class="more-threads">
                     
                 </div>
             </section>
