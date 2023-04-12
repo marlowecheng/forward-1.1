@@ -32,6 +32,11 @@
                     </div>
                     <div class="thread-body">
                         <h2>How can I improve my UI/UX skills as a beginner designer?</h2>
+                        <p>Hello everyone! I'm a beginner UI/UX designer, and I'm struggling with creating user-friendly interfaces that are visually appealing. </p>
+                        <p>I'm having difficulty understanding how to balance the visual design with the functional aspects of the interface. Additionally, I find it challenging to keep up with the latest design trends and technologies. </p>
+                        <p>I've tried to learn from online tutorials, but I still feel like I'm missing something. I would appreciate it if anyone could share their experience and advice on how to improve my UI/UX design skills. What resources do you recommend for learning about the design principles and best practices?</p> 
+                        <p>Are there any specific techniques or practices that have helped you improve your design skills? I'm open to any suggestions that can help me create intuitive, user-friendly interfaces. </p>
+                        <p>Thank you in advance for your help!</p>
                     </div>
                 </div>
             </section>
