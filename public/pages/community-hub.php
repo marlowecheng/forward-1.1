@@ -8,7 +8,7 @@
         <?php 
             require(get_path('public/partials/global/header.php'));
         ?>
-        <main class="grid grid-row">
+        <main class="grid">
             <?php
                 require(get_path('public/partials/components/side-nav.php'));
             ?>
@@ -25,11 +25,11 @@
                         </div>  
                         
                         <div class="community-card-info">
-                            <div class="community-card-tags">
+                            <div class="filter-tags">
                                 <ul>
                                     <li class="purple">UI/UX</li>
-                                    <li class="orange">Venting</li>
-                                    <li class="turquoise">Seeking Advice</li>
+                                    <li class="peach">Venting</li>
+                                    <li class="aqua">Seeking Advice</li>
                                 </ul>
                             </div>
                             <div class="community-card-desc">
@@ -50,10 +50,10 @@
                                 <h4>How can I improve my UI/UX skills as a beginner designer?</h4>
                                 <p>Im a new UI designer and Im feeling seriously overwhelemed....</p>
                             </div>
-                            <div class="community-card-tags">
+                            <div class="filter-tags">
                                 <ul>
                                     <li class="purple">UI/UX</li>
-                                    <li class="turquoise">Seeking Advice</li>
+                                    <li class="aqua">Seeking Advice</li>
                                 </ul>
                             </div>
                             <div class="community-card-meta">
@@ -70,10 +70,10 @@
                                 <h4>Dealing with difficult stakeholders in project management - seeking advice</h4>
                                 <p>Hey guys, I'm a project manager, and I'm dealing with a real pain in the butt stakeholder. They keep throwing curveballs, and it's making it hard to deliver on time. I'm finding...</p>                                                                                         
                             </div>
-                            <div class="community-card-tags">
+                            <div class="filter-tags">
                                 <ul>
-                                    <li class="light-green">Project Management</li>
-                                    <li class="turquoise">Seeking Advice</li>
+                                    <li class="mint">Project Management</li>
+                                    <li class="aqua">Seeking Advice</li>
                                 </ul>
                             </div>
                             <div class="community-card-meta">
@@ -89,11 +89,11 @@
                             <img class="community-thumb" src="<?php echo get_public_url('/images/mental-health-article.png'); ?>">
                         </div>  
                         <div class="community-card-info">
-                            <div class="community-card-tags">
+                            <div class="filter-tags">
                                 <ul>
-                                    <li class="purple">Mental health</li>
-                                    <li class="turquoise">Seeking Advice</li>
-                                    <li class="orange">General</li>
+                                    <li class="grape">Mental Health</li>
+                                    <li class="aqua">Seeking Advice</li>
+                                    <li class="peach">General</li>
                                 </ul>
                             </div>
                             <div class="community-card-desc">
@@ -111,25 +111,23 @@
 
             </section>
 
-            <section class="filter-container">
-                <div>
-                    <div class="filter-search-bar">
-                        <input type="text" class="searchTerm" placeholder="Search Community...">
-                    </div>
-                    <p>Filters: </p>
-                    <div class="filter-items">
-                        <ul>
-                            <li class="purple">UI/UX</li>
-                            <li class="mustard">Coding</li>
-                            <li class="aqua">Seeking Advice</li>
-                            <li class="mint">Project Management</li>
-                            <li class="peach">Venting</li>
-                            <li class="grass">General</li>
-                            <li class="rasp">Introductions</li>
-                            <li class="grape">Mental Health</li>
-                        </ul>
-                    <div>
+            <section class="filter-container border">
+                <div class="filter-search-bar">
+                    <input type="text" class="searchTerm" placeholder="Search Community...">
                 </div>
+                <p>Filters: </p>
+                <div class="filter-tags">
+                    <ul>
+                        <li class="purple">UI/UX</li>
+                        <li class="mustard">Coding</li>
+                        <li class="aqua">Seeking Advice</li>
+                        <li class="mint">Project Management</li>
+                        <li class="peach">Venting</li>
+                        <li class="grass">General</li>
+                        <li class="rasp">Introductions</li>
+                        <li class="grape">Mental Health</li>
+                    </ul>
+                <div>
             </section>
         </main>
         <?php 
