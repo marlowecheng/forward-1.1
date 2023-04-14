@@ -66,12 +66,12 @@ INSERT INTO `mentor` (`id`, `name`, `user_bio`, `job_title`) VALUES
 (1, 'Airrick Dunfield', 'Instructor at BCIT. Developer. Cyclist. Dungeon Master. Coffee Drinker. Forest Explorer. He/Him. ', 'BCIT Instructor'),
 (2, 'Conan Galloway', 'I\'m an instructor with BCIT in the New Media Design and Web Development program.', 'BCIT Instructor'),
 (3, 'Richard Te', 'I have a bachelor’s degree in industrial engineering and graduated from the program I teach now. Both have opened many doors throughout my career, ranging from brand marketing to instructional design, and digital media development. My true passion though is teaching.', 'BCIT Instructor'),
-(4, 'Sarah Nelson', 'My name is Sarah Nelson (she/her) and I\'m a communication instructor in CST at BCIT with a Master of Arts in Professional Communication. ', 'BCIT Instructor'),
-(5, 'Justine Fox', 'I\'m Mx. Justine Celeste Fox (they/she). I am a former BCIT CIT and BCIT CST BTech alumni and have held various roles that I would classify as \"DevOps\".', 'DevOps'),
-(6, 'Mansur Mirani', 'I lead Mastercard’s Vancouver Tech Hub, your neighbour in Downtown Vancouver. ', 'Software Engineer'),
-(7, 'Chris Thompson', 'I teach term 1 programming methods and term 2 OOP to CST students at the BCIT downtown campus.', 'BCIT Instructor'),
-(8, 'Maria Davis', 'I\'m a recent CST grad, now a Software Engineer at Mastercard. ', 'Software Engineer'),
-(9, 'Hoda', 'My name is Hoda, and I feel incredibly grateful to be a faculty member at BCIT.', 'BCIT Instructor');
+(4, 'Isabella Orto', 'My name is Sarah Nelson (she/her) and I\'m a communication instructor in CST at BCIT with a Master of Arts in Professional Communication. ', 'BCIT Instructor'),
+(5, 'David Singh', 'I\'m Mx. Justine Celeste Fox (they/she). I am a former BCIT CIT and BCIT CST BTech alumni and have held various roles that I would classify as \"DevOps\".', 'DevOps'),
+(6, 'Christian Rami', 'I lead Mastercard’s Vancouver Tech Hub, your neighbour in Downtown Vancouver. ', 'Software Engineer'),
+(7, 'Olivia Petes', 'I teach term 1 programming methods and term 2 OOP to CST students at the BCIT downtown campus.', 'BCIT Instructor'),
+(8, 'Nathan Nackos', 'I\'m a recent CST grad, now a Software Engineer at Mastercard. ', 'Software Engineer'),
+(9, 'Madi Michon', 'My name is Hoda, and I feel incredibly grateful to be a faculty member at BCIT.', 'BCIT Instructor');
 
 -- --------------------------------------------------------
 

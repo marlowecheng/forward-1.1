@@ -1,7 +1,7 @@
 <?php
 $airrick_dunfield = new Mentor([
     'name' => 'Airrick Dunfield',
-    'image_url' => 'airrick-dunfield-profile-image.jpg',
+    'image_url' => 'Mentors_results.php and mentor-list.php/airrick-dunfield.jpg',
     'user_bio' => 'Instructor at BCIT. Developer. Cyclist. Dungeon Master. Coffee Drinker. Forest Explorer. He/Him.',
     'job_title' => 'Instructor at BCIT',
     'specialization' => ['Development', 'PHP']
@@ -9,7 +9,7 @@ $airrick_dunfield = new Mentor([
 
 $conan_galloway = new Mentor([
     'name' => 'Conan Galloway',
-    'image_url' => 'conan-galloway-profile-image.jpg',
+    'image_url' => 'Mentors_results.php and mentor-list.php/conan-galloway.jpg',
     'user_bio' => 'I\'m an instructor with BCIT in the New Media Design and Web Development program.',
     'job_title' => 'Instructor at BCIT',
     'specialization' => ['Development', 'C#', 'Angular']
@@ -17,55 +17,55 @@ $conan_galloway = new Mentor([
 
 $richard_te = new Mentor([
     'name' => 'Richard Te',
-    'image_url' => 'richard-te-profile-image.jfif',
+    'image_url' => 'Mentors_results.php and mentor-list.php/richard-te.jpg',
     'user_bio' => 'I have a bachelor’s degree in industrial engineering and graduated from the program I teach now. Both have opened many doors throughout my career, ranging from brand marketing to instructional design, and digital media development. My true passion though is teaching.',
     'job_title' => 'Instructor at BCIT',
     'specialization' => ['Branding', 'Development']
 ]);
 
-$sarah_nelson = new Mentor([
-    'name' => 'Sarah Nelson',
-    'image_url' => 'sarah-nelson-profile-image.jpg',
+$isabella_orto = new Mentor([
+    'name' => 'Isabella Orto',
+    'image_url' => 'Mentors_results.php and mentor-list.php/isabella-orto.jpg',
     'user_bio' => 'My name is Sarah Nelson (she/her) and I\'m a communication instructor in CST at BCIT with a Master of Arts in Professional Communication. ', 'BCIT Instructor',
     'job_title' => 'Instructor at BCIT',
     'specialization' => ['Communication', 'Arts']
 ]);
 
-$justine_fox = new Mentor([
-    'name' => 'Justine Fox',
-    'image_url' => 'justine-fox-profile-image.jpg',
+$david_singh = new Mentor([
+    'name' => 'David Singh',
+    'image_url' => 'Mentors_results.php and mentor-list.php/david-singh.jpg',
     'user_bio' => 'I\'m Mx. Justine Celeste Fox (they/she). I am a former BCIT CIT and BCIT CST BTech alumni and have held various roles that I would classify as \"DevOps\".',
-    'job_title' => 'Software Engineer',
+    'job_title' => 'Principal Product Manager at Unsplash',
     'specialization' => ['Development', 'BASH', 'Python']
 ]);
 
-$mansur_mirani = new Mentor([
-    'name' => 'Mansur Mirani',
-    'image_url' => 'mansur-mirani-profile-image.jpg',
+$christian_rami = new Mentor([
+    'name' => 'Christian Rami',
+    'image_url' => 'Mentors_results.php and mentor-list.php/christian-rami.jpg',
     'user_bio' => 'I lead Mastercard’s Vancouver Tech Hub, your neighbour in Downtown Vancouver.',
-    'job_title' => 'Software Engineer',
+    'job_title' => 'Vice President at VISA',
     'specialization' => ['Development', 'PHP']
 ]);
 
-$chris_thompson = new Mentor([
-    'name' => 'Chris Thompson',
-    'image_url' => 'chris-thompson-profile-image.jpg',
+$olivia_petes = new Mentor([
+    'name' => 'Olivia Petes',
+    'image_url' => 'Mentors_results.php and mentor-list.php/olivia-petes.jpg',
     'user_bio' => 'I teach term 1 programming methods and term 2 OOP to CST students at the BCIT downtown campus.',
     'job_title' => 'Instructor at BCIT',
     'specialization' => ['Development', 'Python', 'C++']
 ]);
 
-$maria_davis = new Mentor([
-    'name' => 'Maria Davis',
-    'image_url' => 'maria-davis-profile-image.jpg',
+$nathan_nackos = new Mentor([
+    'name' => 'Nathan Nackos',
+    'image_url' => 'Mentors_results.php and mentor-list.php/nathan-nackos.jpg',
     'user_bio' => 'I\'m a recent CST grad, now a Software Engineer at Mastercard.',
-    'job_title' => 'Software Engineer',
+    'job_title' => 'Software Engineer II at Mastercard',
     'specialization' => ['Development', 'Java']
 ]);
 
-$hoda_rashedi = new Mentor([
-    'name' => 'Hoda Rashedi',
-    'image_url' => 'hoda-rashedi-profile-image.jpg',
+$madi_michon = new Mentor([
+    'name' => 'Madi Michon',
+    'image_url' => 'Mentors_results.php and mentor-list.php/madi-michon.jpg',
     'user_bio' => 'My name is Hoda, and I feel incredibly grateful to be a faculty member at BCIT.',
     'job_title' => 'Instructor at BCIT',
     'specialization' => ['Design']
@@ -75,10 +75,10 @@ $mentors = [
     $airrick_dunfield,
     $conan_galloway,
     $richard_te,
-    $sarah_nelson,
-    $justine_fox,
-    $mansur_mirani,
-    $chris_thompson,
-    $maria_davis,
-    $hoda_rashedi,
+    $isabella_orto,
+    $david_singh,
+    $christian_rami,
+    $olivia_petes,
+    $nathan_nackos,
+    $madi_michon,
 ];
