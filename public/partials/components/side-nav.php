@@ -11,7 +11,7 @@
 
     <div class="nav-links">
         <ul>
-            <li><img class="nav-icon" src="<?php echo get_public_url('images/Icons/home.svg'); ?>" alt=""><a href="<?php echo get_public_url('/index.php'); ?>" title="Go to Home">Home</a></li>
+            <li><img class="nav-icon" src="<?php echo get_public_url('images/Icons/home.svg'); ?>" alt=""><a href="<?php echo get_public_url('/pages/profile-page.php'); ?>" title="Go to Home">Home</a></li>
             <li><img class="nav-icon" src="<?php echo get_public_url('images/Icons/inbox.svg'); ?>" alt=""><a href="#" title="Go to Inbox">Inbox</a></li>
             <li><img class="nav-icon" src="<?php echo get_public_url('images/Icons/calendar.svg'); ?>" alt=""><a href="#" title="See Your Calendar">Calendar</a></li>
             <li><img class="nav-icon" src="<?php echo get_public_url('images/Icons/folder.svg'); ?>" alt=""><a href="<?php echo get_public_url('/pages/project-showcase.php'); ?>" title="View Your List of Projects">My Projects</a></li>
