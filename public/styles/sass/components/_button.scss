@@ -38,9 +38,9 @@
     align-self: center;
     width: fit-content;
     text-align: center;
-    padding: .5rem 1.5rem;
+    padding: .75rem 2rem;
     background: config.$green;
-    border-radius: 0.06rem;
+    border-radius: 0.125rem;
 
     > a {
         color: config.$white;
@@ -56,8 +56,8 @@
     width: fit-content;
     text-align: center;
     box-shadow:inset 0 0 0 .2rem config.$green;
-    padding: .5rem 1.5rem;
-    border-radius: 0.06rem;
+    padding: .75rem 2rem;
+    border-radius: 0.125rem;
 
     > a {
         color: config.$green;
