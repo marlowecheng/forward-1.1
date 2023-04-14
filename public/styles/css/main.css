@@ -246,7 +246,8 @@ section.bg {
 }
 
 .notification-icon {
-  width: 42px;
+  width: 30px;
+  height: auto;
 }
 
 .header-btn {
@@ -291,23 +292,31 @@ header .header-content .logo > img {
 }
 header .header-content nav {
   grid-column: 3/span 10;
+  display: flex;
 }
-header .header-content .global-nav {
-  width: 100%;
+header .header-content nav .nav-left {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+}
+header .header-content nav .global-nav {
+  flex-basis: 50%;
   display: flex;
   justify-content: end;
   align-items: center;
   gap: 2rem;
 }
-header .header-content .global-nav .user a {
+header .header-content nav .global-nav .user a {
   display: flex;
   align-items: center;
   color: #191919;
 }
-header .header-content .global-nav .user .drop-icon {
+header .header-content nav .global-nav .user .drop-icon {
   width: 20px;
 }
-header .header-content .global-nav .img-container {
+header .header-content nav .global-nav .img-container {
   width: 2.5rem;
   height: 2.5rem;
   background: grey;

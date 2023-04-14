@@ -1,7 +1,8 @@
 @use '../config';
 
 .notification-icon {
-    width: 42px;
+    width: 30px;
+    height: auto;
 }
 
 .header-btn {
@@ -49,35 +50,47 @@ header {
 
         nav {
             grid-column: 3 / span 10;
-        }
-
-        .global-nav {
-            width: 100%;
             display: flex;
-            justify-content: end;
-            align-items: center;
-            gap: 2rem;
 
-            .user {
-                a {
-                    display: flex;
-                    align-items: center;
-                    color: config.$black;
-                }
-                .drop-icon {
-                    width: 20px;
-                }
+            .nav-left {
+                flex-basis: 50%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 2rem;
             }
 
-            .img-container {
-                width: 2.5rem;
-                height: 2.5rem;
-                background: grey;
-                border-radius: 50%;
-                object-fit: cover;
-                aspect-ratio: 1/1;
-                border: 2px solid config.$green;
+            .global-nav {
+                flex-basis: 50%;
+                display: flex;
+                justify-content: end;
+                align-items: center;
+                gap: 2rem;
+    
+                .user {
+                    a {
+                        display: flex;
+                        align-items: center;
+                        color: config.$black;
+                    }
+                    .drop-icon {
+                        width: 20px;
+                    }
+                }
+    
+                .img-container {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    background: grey;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    aspect-ratio: 1/1;
+                    border: 2px solid config.$green;
+                }
             }
+        
         }
+
+        
     }
 }
