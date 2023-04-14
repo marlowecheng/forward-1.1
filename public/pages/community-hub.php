@@ -44,24 +44,26 @@
                     </div>
 
 
-                    <div class="community-card hover-fx">
-                        <div class="community-card-info">
-                            <div class="community-card-desc">
-                                <h4>How can I improve my UI/UX skills as a beginner designer?</h4>
-                                <p>Im a new UI designer and Im feeling seriously overwhelmed....</p>
-                            </div>
-                            <div class="filter-tags">
-                                <ul>
-                                    <li class="purple">UI/UX</li>
-                                    <li class="aqua">Seeking Advice</li>
-                                </ul>
-                            </div>
-                            <div class="community-card-meta">
-                                <p>posted by @lilbrowndesigns 9 hours ago</p>
-                                <p><img class="message-icon" src="<?php echo get_public_url('/images/message-square.svg') ?>">10 comments</p>
+                    <a href="<?php echo get_public_url('/pages/community-thread.php'); ?>" class="card-link">
+                        <div class="community-card hover-fx">
+                            <div class="community-card-info">
+                                <div class="community-card-desc">
+                                    <h4>How can I improve my UI/UX skills as a beginner designer?</h4>
+                                    <p>Im a new UI designer and Im feeling seriously overwhelmed....</p>
+                                </div>
+                                <div class="filter-tags">
+                                    <ul>
+                                        <li class="purple">UI/UX</li>
+                                        <li class="aqua">Seeking Advice</li>
+                                    </ul>
+                                </div>
+                                <div class="community-card-meta">
+                                    <p>posted by @lilbrowndesigns 9 hours ago</p>
+                                    <p><img class="message-icon" src="<?php echo get_public_url('/images/message-square.svg') ?>">10 comments</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
 
 
                     <div class="community-card hover-fx">
