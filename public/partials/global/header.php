@@ -6,7 +6,7 @@
                 <img src="<?php echo get_public_url('images/forward-logo-horizontal.svg'); ?>" alt="Forward Logo">
             </a>
         
-            <nav>
+            <nav class="d-flex">
                 <ul class="nav-left">
                     <li class>
                         <a href="#" class="" title="Go to Community Hub">Community</a>

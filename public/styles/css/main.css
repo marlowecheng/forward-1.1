@@ -292,7 +292,6 @@ header .header-content .logo > img {
 }
 header .header-content nav {
   grid-column: 3/span 10;
-  display: flex;
 }
 header .header-content nav .nav-left {
   flex-basis: 50%;
