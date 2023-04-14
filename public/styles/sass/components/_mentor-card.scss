@@ -2,44 +2,56 @@
 
 .mentor-card {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    padding: 2rem;
-    max-width: 250px;
-    border-radius: 16px;
+    // padding: 2rem;
+    width: 287px;
+    // max-width: 287px;
+    border-radius: 2px;
     transition: 0.3s;
     background: config.$white;
-    .mentor-name{
-        padding-top: 12px;
-        color: config.$green;
+    border: 1px solid rgba(25, 25, 25, 0.05);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+
+    .mentor-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+        flex-grow: 1;
+
+        .mentor-name{
+            // padding-top: 1rem;
+            color: config.$black;
+            margin-bottom: .5rem;
+        }
+        .mentor-job {
+            // margin: 10px 0;
+            margin-bottom: .5rem;
+        }
+        .mentor-specialization{
+            // gap: 3px;
+            margin-bottom: .5rem;
+        }
+        .mentor-special {
+            background-color: config.$chip-grey;
+            color: config.$white;
+            padding: 2px 10px;
+            border-radius: 2px;
+        }
     }
-    .mentor-job {
-        font-weight: 800;
-        margin: 10px 0;
-        margin-top: 3px;
-    }
-    .mentor-specialization{
-        gap: 3px;
-    }
-    .mentor-special {
-        background-color: config.$tan;
-        padding: 2px 10px;
-        border-radius: 16px;
-        font-size: 12px;
-    }
+
 }
 
 .mentor-card img {
     width: 100%;
-    height: auto;
+    height: fit-content;
     margin: 0 auto;
-    border-radius: 16px;
+    border-radius: 2px 2px 0px 0px;
     display: block;
 }
 
 .mentor-card ul {
     gap: 1rem;
 }
-
-
 
 .mentor-bar-wrapper {
     display: flex;
@@ -58,8 +70,6 @@
         gap: 24px;
     }
 }
-
-
 
 .mentor-card:hover {
     transform: translate(0, -10px);
