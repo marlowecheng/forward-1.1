@@ -10,7 +10,7 @@
         ?>
         <main>
             <section class="banner grid">
-                <div class="col-7">
+                <div class="col-6 banner-left">
                     <h1>Dedicated mentors to keep you moving Forward</h1>
                     <p>Built by mentees, for mentors & peers. Forward helps local tech industry professionals and new-comers build communities and connections with each other.</p>
                     <div class="banner-btns">
@@ -18,10 +18,13 @@
                         <div class="btn-secondary"><a href="<?php echo get_public_url('/pages/login.php'); ?>" title="Sign Up" class="">Learn about Forward &rarr;</a></div>
                     </div>
                 </div>
-                <img src="<?php echo get_public_url('/images/hero-banner.jpg'); ?>" alt="Two women looking at a laptop screen" class="col-5">
+                <div class="col-6 banner-right">
+                    <img src="<?php echo get_public_url('/images/hero-banner.jpg'); ?>" alt="Two women looking at a laptop screen" class="col-5">
+                </div>
             </section>
+            <span class="border-line"></span>
             <section class="features">
-                <h1>Get Started with forward</h1>
+                <h1>Get Started with Forward</h1>
                 <ul class="grid">
                     <li class="col-4">
                         <img src="<?php echo get_public_url('/images/icons/clarity-blocks.svg'); ?>" alt="clarity block icon">
@@ -37,6 +40,7 @@
                     </li>
                 </ul>
             </section>
+            <span class="border-line"></span>
             <section class="testimonials">
                 <h1>Here's what our users have to say</h1>
                 <ul class="grid">

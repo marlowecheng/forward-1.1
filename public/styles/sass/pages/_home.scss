@@ -1,26 +1,48 @@
 @use '../config';
 
 .banner {
-    padding: 0 30px;
-    div h1 {
-        font-size: 4rem;
-    }
-    > div, img {
-        align-self: center;
-    }
+    // padding: 30px;
+    // div h1 {
+    //     font-size: 4rem;
+    // }
+    // > div, img {
+    //     align-self: center;
+    // }
 
-    img {
-        object-fit: cover;
-        width: 100%;
-        aspect-ratio: 1;
-        border-radius: 1rem;
-    }
+    // > div {
+    //     display: flex;
+    //     gap: 1rem;
+    //     flex-direction: column;
+    //     align-items: flex-start;
+    // }
+    
+    margin: 0 0 0 6rem;
 
-    > div {
+    .banner-left {
+        h1 {
+            font-size: 4rem;
+            margin: 1rem 0;
+        }
+
+        p {
+            max-width: 500px;
+        }
+        
         display: flex;
         gap: 1rem;
         flex-direction: column;
+        justify-content: center;
         align-items: flex-start;
+    }
+    
+    .banner-right {
+        img {
+            object-fit: cover;
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            aspect-ratio: 1;
+        }
     }
 
     .banner-btns {
@@ -34,6 +56,8 @@
 }
 
 .features {
+    margin: 6rem 4rem;
+
     h1 {
         margin-bottom: 45px;
         margin-left: 30px;
@@ -54,6 +78,13 @@
 }
 
 .testimonials {
+    margin: 6rem 4rem;
+
+    h1 {
+        margin-bottom: 4rem;
+        margin-left: 30px;
+    }
+
     img {
         max-width: 100%;
         object-fit: cover;
@@ -79,37 +110,30 @@
     li:hover {
         transform: translate(0, -10px);
     }
-}
 
-    .testimonials {
-        h1 {
-            margin-bottom: 45px;
-            margin-left: 30px;
-        }
-        .testimonial-user {
+    .testimonial-user {
+        display: flex;
+        align-items: center;
+        align-content: flex-end;
+        justify-content: start;
+        gap: 15px;
+        border-top: 1px solid;
+        padding-top: 24px;
+        margin-top: 16px;
+        
+        p:nth-child(2) {
             display: flex;
+            align-items: start;
+            font-size: 14px;
+        }
+        .testimonial-img-icon {
+            width: 64px;
+            height: 64px;
+            border-radius: 100px;
+            display: flex;
+            justify-content: center;
             align-items: center;
-            align-content: flex-end;
-            justify-content: start;
-            gap: 15px;
-            border-top: 1px solid;
-            padding-top: 24px;
-            margin-top: 16px;
-            
-            p:nth-child(2) {
-                display: flex;
-                align-items: start;
-                font-size: 14px;
-            }
-            .testimonial-img-icon {
-                width: 64px;
-                height: 64px;
-                border-radius: 100px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-
         }
     }
+}
 
