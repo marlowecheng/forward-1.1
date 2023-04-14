@@ -41,11 +41,60 @@
                         <p>Are there any specific techniques or practices that have helped you improve your design skills? I'm open to any suggestions that can help me create intuitive, user-friendly interfaces. </p>
                         <p>Thank you in advance for your help!</p>
                     </div>
+                    <div class="thread-footer">
+                        <div class="j-left">
+                            <div class="icon-save">
+                                <i data-feather="bookmark"></i><p class="txt-xs">Save for later</p>
+                            </div>
+                            <div class="icon-share">
+                            <i data-feather="share"></i><p class="txt-xs">Share</p>
+                            </div>
+                        </div>
+                        <div class="icon-report j-right">
+                            <i data-feather="flag"></i><p class="txt-xs">Report</p>
+                        </div>
+                    </div>
                 </div>
             </section>
-            <section class="no-margin thread-comments">
-                <div class="">
-                    
+            <section class="no-margin thread-comments border">
+                <h4>Conversations (10)</h4>
+                <div class="comment-form">
+                    <input type="text" class="comment-box" placeholder="What are your thoughts?">
+                    <div class="comment-btns">
+                        <div class="btn-tertiary"><a href="#">Cancel</a></div>
+                        <div class="btn"><a href="#">Submit</a></div>
+                    </div>
+                </div>
+                <div class="user-comment border">
+                        <div class="avatar-comment">
+                            <img src="" alt="">
+                        </div>
+                        <div class="comment-content">
+                            <p class="txt-xs">@oliviah_ux 12 hours ago</p>
+                            <p>Hey there, fellow designer! I totally understand where you're coming from. The world of UI/UX can be a little overwhelming at first, but don't worry - we've all been there. First things first, don't be too hard on yourself. It takes time and practice to develop those skills, so don't give up! As for resources, there are plenty of great design blogs, YouTube channels, and online courses that can help you improve your skills. I'd also recommend one of the Forward mentors here so you can bounce ideas get feedback on your work.</p>
+                            <p>Hope that helps, and best of luck on your design journey!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-comment border">
+                        <div class="avatar-comment">
+                            <img src="" alt="">
+                        </div>
+                        <div class="comment-content">
+                            <p class="txt-xs">@benjileet 17 hours ago</p>
+                            <p>Hey, I hear you! I was once in your shoes as a beginner designer, struggling to create user-friendly interfaces that looked good too. The best tip I have is to share your designs with others and ask for feedback. It can be scary to put your work out there, but it's a sure fire way to get better and to improve. :)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-comment border">
+                        <div class="avatar-comment">
+                            <img src="" alt="">
+                        </div>
+                        <div class="comment-content">
+                            <p class="txt-xs">@alexwils2 19 hours ago</p>
+                            <p>Hey, I hear you! I was once in your shoes as a beginner designer, struggling to create user-friendly interfaces that looked good too. The best tip I have is to share your designs with others and ask for feedback. It can be scary to put your work out there, but it's a sure fire way to get better and to improve. :)</p>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section class="no-margin thread-side">
