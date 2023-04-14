@@ -3,24 +3,49 @@
 .side-nav {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     padding: 3rem 1.25rem 1.25rem;
     grid-area: 1 / 1 / -1 / 4;
-    align-items: center;
     border-right: 1px solid config.$black;
-    .profile-image {
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        border: 2px solid config.$black;
+
+    .profile-container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 1rem;
+        gap: 1rem;
+
+        .profile-image-container {
+            margin: 0 .5rem;
+            .profile-image {
+                width: 74px;
+                height: 74px;
+                border-radius: 50%;
+                border: 2px solid config.$black75;
+            }
+        }
+
+        .profile-info {
+            p {
+                font-weight: 600;
+                margin-bottom: .5rem;
+            }
+            a {
+                text-decoration: underline;
+            }
+        }
     }
+
+
     .nav-links {
         margin-top: 16px;
         ul{
             li {
-                margin: 1.125rem;
+                margin: 1.5rem .5rem;
                 img {
                     margin-right: 8px;
+                    height: 1.5rem;
+                    width: 1.5rem;
                 }
                 a{
                     color: config.$black;
