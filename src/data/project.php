@@ -1,7 +1,7 @@
 <?php
 $pinnacle_real_estate = new Project([
     'name' => 'Pinnacle Real Estate',
-    'image' => 'pinnacle-real-estate-thumb.jpg',
+    'image' => './Project_Showcase_project-showcase.php/pinnacle-real-estate-thumb.jpg',
     'tags' => ['DEVELOPMENT'],
     'featured' => true,
     'author_name' => 'Dave Koo'
@@ -9,7 +9,7 @@ $pinnacle_real_estate = new Project([
 
 $live_2k = new Project([
     'name' => 'Live 2K Website',
-    'image' => 'live-2k-thumb.jpg',
+    'image' => './Project_Showcase_project-showcase.php/live-2k-thumb.jpeg',
     'tags' => ['DEVELOPMENT', 'UIUX'],
     'featured' => true,
     'author_name' => 'Rikki Soriano'
@@ -17,7 +17,7 @@ $live_2k = new Project([
 
 $react_todo = new Project([
     'name' => 'React To-Do App',
-    'image' => 'react-todo-thumb.jpg',
+    'image' => './Project_Showcase_project-showcase.php/react-todo-thumb.jpeg',
     'tags' => ['DEVELOPMENT'],
     'featured' => true,
     'author_name' => 'Karina Song'
@@ -25,7 +25,7 @@ $react_todo = new Project([
 
 $restwel_responsive_banner = new Project([
     'name' => 'Restwel Responsive Banner',
-    'image' => 'restwel-banner-thumb.jpg',
+    'image' => './Project_Showcase_project-showcase.php/restwel-banner-thumb.jpeg',
     'tags' => ['DEVELOPMENT'],
     'featured' => true,
     'author_name' => 'Marlowe Cheng'
@@ -33,7 +33,7 @@ $restwel_responsive_banner = new Project([
 
 $northern_cafe_menu = new Project([
     'name' => 'Northern Cafe Menu',
-    'image' => 'northern-cafe-menu-thumb.jpg',
+    'image' => './Project_Showcase_project-showcase.php/northern-cafe-mock.jpeg',
     'tags' => ['DESIGN'],
     'featured' => true,
     'author_name' => 'Kayla Tran'
@@ -41,7 +41,7 @@ $northern_cafe_menu = new Project([
 
 $vizro_records = new Project([
     'name' => 'Vizro Records',
-    'image' => 'vizro-records-thumb.jpg',
+    'image' => './Project_Showcase_project-showcase.php/vizro-mobile-app-mock-card.jpeg',
     'tags' => ['DESIGN'],
     'featured' => true,
     'author_name' => 'Kayla Tran'
