@@ -39,12 +39,21 @@ $northern_cafe_menu = new Project([
     'author_name' => 'Kayla Tran'
 ]);
 
+$vizro_records = new Project([
+    'name' => 'Vizro Records',
+    'image' => 'vizro-records-thumb.jpg',
+    'tags' => ['DESIGN'],
+    'featured' => true,
+    'author_name' => 'Kayla Tran'
+]);
+
 $projects = [
     $pinnacle_real_estate,
     $live_2k,
     $react_todo,
     $restwel_responsive_banner,
     $northern_cafe_menu,
+    $vizro_records
 ]
 
 
