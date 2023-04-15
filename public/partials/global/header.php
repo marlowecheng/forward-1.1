@@ -16,12 +16,6 @@
                     </li>
                 </ul>
                 <ul class="global-nav">
-                    <!-- <li class="flex-left">
-                        <a href="#" class="" title="Go to Community Hub">Community</a>
-                    </li>
-                    <li class="flex-left">
-                        <a href="" class="" title="Project Showcase">Showcase</a>
-                    </li> -->
                     <li class="nav-btn">
                         <a href="<?php echo get_public_url('/pages/mentor-list.php'); ?>" title="See List of Mentors">Mentors</a>
                     </li>

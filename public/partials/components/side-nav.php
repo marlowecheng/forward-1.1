@@ -5,7 +5,7 @@
         </div>
         <div class="profile-info">
             <p class="txt-xl">Dave Koo</p>
-            <a href="#" title="View Profile">View Profile</a>
+            <a href="<?php echo get_public_url('/pages/profile-page.php'); ?>" title="View Profile">View Profile</a>
         </div>
     </div>
 
