@@ -44,7 +44,7 @@
                     </div>
 
 
-                    <a href="<?php echo get_public_url('/pages/community-thread.php'); ?>" class="card-link">
+                    <a href="<?php echo get_public_url('/pages/community-thread.php'); ?>" class="card-link" title="Go to Thread">
                         <div class="community-card hover-fx">
                             <div class="community-card-info">
                                 <div class="community-card-desc">
