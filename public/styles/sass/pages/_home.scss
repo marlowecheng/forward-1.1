@@ -1,21 +1,6 @@
 @use '../config';
 
 .banner {
-    // padding: 30px;
-    // div h1 {
-    //     font-size: 4rem;
-    // }
-    // > div, img {
-    //     align-self: center;
-    // }
-
-    // > div {
-    //     display: flex;
-    //     gap: 1rem;
-    //     flex-direction: column;
-    //     align-items: flex-start;
-    // }
-    
     margin: 0 0 0 6rem;
 
     .banner-left {
@@ -40,7 +25,7 @@
             object-fit: cover;
             width: 100%;
             max-width: 100%;
-            height: auto;
+            height: 100%;
             aspect-ratio: 1;
         }
     }
