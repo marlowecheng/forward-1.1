@@ -22,7 +22,7 @@
                     <img class="notification-icon" src="<?php echo get_public_url('images/Icons/Inbox.svg'); ?>" alt="Inbox Icon">
                     <img class="notification-icon" src="<?php echo get_public_url('images/Icons/Bell.svg'); ?>" alt="Notifications Bell">
                     <li class="user">
-                        <a href="<?php echo get_public_url('/pages/profile-page.php'); ?>" title="View User Profile"><img class="img-container" src="<?php echo get_public_url('images/dave-koo-profile-image.jpg'); ?>" alt=""><img class="drop-icon" src="https://img.icons8.com/material/256/expand-arrow.png" alt=""></a>
+                        <a href="<?php echo get_public_url('/pages/profile-page.php'); ?>" title="View User Profile"><img class="img-container" src="<?php echo get_public_url('images/dave-koo-profile-image.jpg'); ?>" alt="User Image"><img class="drop-icon" src="https://img.icons8.com/material/256/expand-arrow.png" alt="Dropdown Icon"></a>
                     </li>
                 </ul>
             </nav>

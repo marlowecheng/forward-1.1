@@ -21,7 +21,7 @@
 
                     <div class="community-card hover-fx">
                         <div>
-                            <img class="community-thumb" src="<?php echo get_public_url('/images/overwhelm-article.png'); ?>">
+                            <img class="community-thumb" src="<?php echo get_public_url('/images/overwhelm-article.png'); ?>" alt="Article Illustration">
                         </div>  
                         
                         <div class="community-card-info">
@@ -38,7 +38,7 @@
                             </div>
                             <div class="community-card-meta">
                                 <p>posted by @miapatel 6 hours ago</p>
-                                <p><img class="message-icon" src="<?php echo get_public_url('/images/message-square.svg') ?>">6 comments</p>
+                                <p><img class="message-icon" src="<?php echo get_public_url('/images/message-square.svg') ?>" alt="Message Icon">6 comments</p>
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                                 </div>
                                 <div class="community-card-meta">
                                     <p>posted by @lilbrowndesigns 9 hours ago</p>
-                                    <p><img class="message-icon" src="<?php echo get_public_url('/images/message-square.svg') ?>">10 comments</p>
+                                    <p><img class="message-icon" src="<?php echo get_public_url('/images/message-square.svg') ?>" alt="Message Icon">10 comments</p>
                                 </div>
                             </div>
                         </div>
@@ -80,7 +80,7 @@
                             </div>
                             <div class="community-card-meta">
                                 <p>posted by @lukemitchellpm 1 day ago</p>
-                                <p><img class="message-icon" src="<?php echo get_public_url('/images/message-square.svg') ?>">21 comments</p>
+                                <p><img class="message-icon" src="<?php echo get_public_url('/images/message-square.svg') ?>" alt="Message Icon">21 comments</p>
                             </div>
                         </div>
                     </div>
@@ -88,7 +88,7 @@
 
                     <div class="community-card hover-fx">
                         <div>
-                            <img class="community-thumb" src="<?php echo get_public_url('/images/mental-health-article.png'); ?>">
+                            <img class="community-thumb" src="<?php echo get_public_url('/images/mental-health-article.png'); ?>" alt="Article Illustration">
                         </div>  
                         <div class="community-card-info">
                             <div class="filter-tags">
@@ -104,7 +104,7 @@
                             </div>
                             <div class="community-card-meta">
                                 <p>posted by @gabekim 1 day ago</p>
-                                <p><img class="message-icon" src="<?php echo get_public_url('/images/message-square.svg') ?>">35 comments</p>
+                                <p><img class="message-icon" src="<?php echo get_public_url('/images/message-square.svg') ?>" alt="Message Icon">35 comments</p>
                             </div>
                         </div>
                     </div>
