@@ -10,18 +10,18 @@
         ?>
         <main>
             <section class="login grid">
-                <h1>Login to Forward</h1>
+                <h1>Forward</h1>
                 <div class="container">
                     <div class="login-container">
                         <div class="login-form">
                             <form action="">
                                 <div class="form-input">
                                     <label for="email">Email</label>
-                                    <input type="text" name="email">
+                                    <input type="text" name="email" placeholder="Email Address">
                                 </div>
                                 <div class="form-input">
                                     <label for="password">Password</label>
-                                    <input type="password" name="password">
+                                    <input type="password" name="password" placeholder="Password">
                                 </div>
                             </form>
                             <div class="btn"><a href="<?php echo get_public_url('/pages/profile-page.php'); ?>">Login</a></div>

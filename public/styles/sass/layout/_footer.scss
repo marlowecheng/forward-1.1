@@ -6,12 +6,12 @@ footer {
     border-top: 0.063rem solid config.$black;
 
     .footer-content {
-        margin: 1.5rem 5rem;
+        margin: 1.5rem 2rem;
         .footer {
             justify-content: space-between;
             align-items: center;
             .logo {
-                height: 48px;
+                height: 2.5rem;
             }
         }
 
@@ -20,12 +20,14 @@ footer {
             
             li {
                 margin-left: 2rem;
+                font-size: 1.5rem;
             }
         }
 
         .line {
-            margin: 1rem 0;
-            border-top: 0.063rem solid #c3c3c3;
+            display: block;
+            margin: 2rem 0;
+            border-bottom: 1px solid #c3c3c3;
         }
 
         // hr {
@@ -36,6 +38,7 @@ footer {
 
         p {
             text-align: center;
+            color: config.$black50;
         }
     }
 }

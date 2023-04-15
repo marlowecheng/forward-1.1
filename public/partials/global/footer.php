@@ -7,21 +7,22 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">About</a>
+                        <a href="#">Home</a>
                     </li>
                     <li>
-                        <a href="#">Inbox</a>
+                        <a href="#">About</a>
                     </li>
                     <li>
                         <a href="#">Contact</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="#">Calendar</a>
-                    </li>
+                    </li> -->
                 </ul>
             </nav>
         </div>
-        <p>&copy; Forward 2023 | All Rights Reserved</p>
+        <span class="line"></span>
+        <p>Copyright &copy; 2023 Forward | All Rights Reserved</p>
     </div>
 </footer>
 <script>

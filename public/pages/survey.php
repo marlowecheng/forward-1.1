@@ -15,13 +15,13 @@
             <section class="survey">
                 <section>
                     <h1>Let's learn more about you.</h1>
-                    <p>Take our 3-question survey and we’ll help you find a compatible mentor near you.</p>
+                    <p class="txt-lg">Take our 3-question survey and we'll help you find a compatible mentor near you.</p>
                 </section>
                 <section class="survey-form">
                     <div class="tab main-obj">
                         <!-- <p>Step 1 of 3</p> -->
                         <div class="select-title">
-                            <h2>What's your main objective right now?</h2>
+                            <h3>What's your main objective right now?</h3>
                         </div>
                         <div class="radio-options">
                             <label for="get-hired">
@@ -49,7 +49,7 @@
                     <div class="tab">
                         <!-- <p>Step 2 of 3</p> -->
                         <div class="select-title">
-                            <h2>Which topics are you interested in?</h2>
+                            <h3>Which topics are you interested in?</h3>
                         </div>
                         <div class="drop-options">
                             <select name="topics" id="topics">
@@ -66,7 +66,7 @@
                     <div class="tab">
                         <!-- <p>Step 3 of 3</p> -->
                         <div class="select-title">
-                            <h2>Where are you located?</h2>
+                            <h3>Where are you located?</h3>
                         </div>
                         <div class="drop-options">
                             <select name="location" id="location">
@@ -76,8 +76,11 @@
                     </div>
                     <div class="progress-btns">
                         <div class="btn prev-btn">
-                            <img src="https://img.icons8.com/material/256/long-arrow-left--v2.png" alt="">
-                            <a href="<?php echo get_public_url('/pages/profile-page.php'); ?>" >Prev</a>
+                            <!-- <img src="https://img.icons8.com/material/256/long-arrow-left--v2.png" alt=""> -->
+                            <a class="nav-btn-secondary" href="<?php echo get_public_url('/pages/profile-page.php'); ?>">
+                                <img class="card-thumb" src="<?php echo get_public_url('/images/Icons/arrow-left.svg'); ?>" alt="">
+                                Go Back
+                            </a>
                         </div>
                         <div class="btn next-btn">
                             <a href="<?php echo get_public_url('/pages/results.php'); ?>" >Next</a>

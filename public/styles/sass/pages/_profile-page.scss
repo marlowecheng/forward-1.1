@@ -4,7 +4,8 @@
     grid-area: 1 / 4 / 3 / 8;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 2rem;
+    margin-bottom: 6rem;
 
     section {
         margin: 0;
@@ -15,26 +16,41 @@
         justify-content: space-between;
         align-items: center;
         background-color: config.$white;
-        border: 1px solid config.$green;
-        border-radius: 16px;
+        filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.25));
+        border-radius: 2px;
         padding: 45px 74px;
         min-width: 600px;
-        -webkit-box-shadow: 0px 2px 12px 5px rgba(0,0,0,0.08); 
-        box-shadow: 0px 2px 12px 5px rgba(0,0,0,0.08);
+        transition: 200ms ease;
+        // -webkit-box-shadow: 0px 2px 12px 5px rgba(0,0,0,0.08); 
+        // box-shadow: 0px 2px 12px 5px rgba(0,0,0,0.08);
 
         .card-information{
             display: flex;
-            gap: 16px;
+            // gap: 16px;
             flex-direction: column;
             padding-right: 125px;
         }
         
         .card-thumb{
-            width: 152px;
-            height: 152px;
-            border-radius: 16px;
+            width: 160px;
+            height: 160px;
+            border-radius: 2px;
             object-fit: cover;
             aspect-ratio: 1/1;
         }
+
+        h2 {
+            font-size: 1.5rem;
+            line-height: 1.625rem;
+        }
+
+        a {
+            color: config.$green;
+        }
+        
+    }
+
+    .profile-card:hover {
+        box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.25);
     }
 }

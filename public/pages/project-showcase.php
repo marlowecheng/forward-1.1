@@ -18,8 +18,9 @@
                 </section>
                 <section>
                     <div class="mentor-bar-wrapper">
-                        <div>
-                            <input type="text" placeholder="Search by role, job, language">
+                    <div class="search-bar">
+                            <img src="<?php echo get_public_url('/images/Icons/Search.svg'); ?>" alt="">
+                            <input type="text" placeholder="Search by role, job, language...">
                         </div>
                         <div class="d-flex filter-btn">
                             <div class="mentor-filter">
