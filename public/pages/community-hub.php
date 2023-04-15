@@ -48,17 +48,19 @@
                         <div class="community-card-info">
                             <div class="community-card-desc">
                                 <h4>How can I improve my UI/UX skills as a beginner designer?</h4>
-                                <p>Im a new UI designer and Im feeling seriously overwhelmed....</p>
+                                <p>Hello everyone! I'm a beginner UI/UX designer, and I'm struggling with creating user-friendly interfaces that are visually appealing. I'm having difficulty understanding how to...</p>
                             </div>
-                            <div class="filter-tags">
-                                <ul>
-                                    <li class="purple">UI/UX</li>
-                                    <li class="aqua">Seeking Advice</li>
-                                </ul>
-                            </div>
-                            <div class="community-card-meta">
-                                <p>posted by @lilbrowndesigns 9 hours ago</p>
-                                <p><img class="message-icon" src="<?php echo get_public_url('/images/message-square.svg') ?>">10 comments</p>
+                            <div class="pt-215">
+                                <div class="filter-tags">
+                                    <ul>
+                                        <li class="purple">UI/UX</li>
+                                        <li class="aqua">Seeking Advice</li>
+                                    </ul>
+                                </div>
+                                <div class="community-card-meta">
+                                    <p>posted by @lilbrowndesigns 9 hours ago</p>
+                                    <p><img class="message-icon" src="<?php echo get_public_url('/images/message-square.svg') ?>">10 comments</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -76,9 +78,11 @@
                                     <li class="aqua">Seeking Advice</li>
                                 </ul>
                             </div>
-                            <div class="community-card-meta">
-                                <p>posted by @lukemitchellpm 1 day ago</p>
-                                <p><img class="message-icon" src="<?php echo get_public_url('/images/message-square.svg') ?>">21 comments</p>
+                            <div class="pt-190">
+                                <div class="community-card-meta">
+                                    <p>posted by @lukemitchellpm 1 day ago</p>
+                                    <p><img class="message-icon" src="<?php echo get_public_url('/images/message-square.svg') ?>">21 comments</p>
+                                </div>
                             </div>
                         </div>
                     </div>
