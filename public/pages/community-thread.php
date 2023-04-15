@@ -8,7 +8,7 @@
         <?php 
             require(get_path('public/partials/global/header.php'));
         ?>
-        <main class="grid grid-row">
+        <main class="grid grid-row thread-page">
             <?php
                 require(get_path('public/partials/components/side-nav.php'));
             ?>

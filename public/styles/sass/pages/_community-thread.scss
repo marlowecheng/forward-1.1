@@ -1,5 +1,9 @@
 @use '../config';
 
+.thread-page.grid-row {
+    grid-template-rows: auto 1fr;
+}
+
 .thread-main {
     grid-area: 1 / 4 / span 1 / span 6;
     margin-top: 2rem;
