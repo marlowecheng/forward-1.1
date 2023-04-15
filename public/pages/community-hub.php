@@ -15,7 +15,7 @@
             <section class="community-section">
                 <div>
                     <h1>Community Hub</h1>
-                    <h2>These are the current talks in <span class="txt-green"><img class="location-icon" src="<?php echo get_public_url('/images/icons/location.svg')?>">Surrrey</span></h2>
+                    <h2>These are the current talks in <span class="txt-green"><img class="location-icon" src="<?php echo get_public_url('/images/icons/location.svg')?>">Surrey</span></h2>
                 </div>
                 <div class="community-card-container">
 
@@ -44,7 +44,7 @@
                     </div>
 
                     <a href="<?php echo get_public_url('/pages/community-thread.php'); ?>" class="card-link" title="Go to Thread">
-                        <div class="community-card hover-fx">
+                        <div class="community-card hover-fx no-card-img">
                             <div class="community-card-info">
                                 <div class="community-card-desc">
                                     <h4>How can I improve my UI/UX skills as a beginner designer?</h4>
@@ -67,7 +67,7 @@
                     </a>
 
 
-                    <div class="community-card hover-fx">
+                    <div class="community-card hover-fx no-card-img">
                         <div class="community-card-info">
                             <div class="community-card-desc">
                                 <h4>Dealing with difficult stakeholders in project management - seeking advice</h4>
