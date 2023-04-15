@@ -54,62 +54,54 @@
 .main-obj {
     display: flex;
     flex-direction: column;
-    // input {
-    //     border-radius: 16px;
-    //     border: 1px solid config.$black;
-    // }
+    
     .radio-options{
         display: flex;
         flex-direction: column;
         gap: 10px;
 
         label{
-            // position: relative;
-            // cursor: pointer;
-            // text-align: center;
             display: flex;
             justify-content: space-between;
             padding: 15px 24px;
             border-radius: 2px;
             border: 1px solid config.$black50;
             max-width: 375px;
+            align-items: center;
+
+            > span {
+                font-family: config.$font-body;
+                font-size: 1rem;
+            }
+
+            > input[type=radio] {
+                accent-color: config.$green;
+                width: 1.3rem;
+                height: 1.3rem;
+            }
         }
-        // [type="checkbox"] + span {
-        //     display: inline-block;
-        //     background-color: white;
-        //     border: #ED217C solid 5px;
-        //     border-radius: 10px;
-        //     padding: 10px 70px;
-        //     margin: 30px 100px;
-        //     text-align: center;
-        //     font-weight: 600;
-        //     font-style: italic;
-        //     font-size: 20px;
-        //     color: #ED217C;
-        // }
-        // :checked + span {
-        //     background-color:#ED217C;
-        //     color: white; 
-        // }
     }
 }
 
 .drop-options{
     position: relative;
     select{
-        // display: none;
+        appearance: none;
+        background-color: config.$white;
         padding: 15px 24px;
         border-radius: 2px;
         border: 1px solid config.$black;
         width: 425px;
         font-family: config.$font-body;
+        font-size: 1rem;
+        border: 1px solid config.$black50;
     }
 }
 
-// input[type=text] {
-//     width: 283px;
-//     border-radius: 16px;
-//     padding: 1rem;
-//     font-family: config.$font-body;
-// }
-
+.drop-options:after {
+    content: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMyAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTYuNjQ5NzUgMTEuNDE1OUM2LjU4MzE5IDExLjUyOCA2LjQxNjgxIDExLjUyOCA2LjM1MDI1IDExLjQxNTlMMC4wMjM0MjMyIDAuNzUyMzg5Qy0wLjA0MzEzMTIgMC42NDAyMTUgMC4wNDAwNjIyIDAuNSAwLjE3MzE3MSAwLjVMMTIuODI2OCAwLjUwMDAwMUMxMi45NTk5IDAuNTAwMDAxIDEzLjA0MzEgMC42NDAyMTggMTIuOTc2NiAwLjc1MjM5MUw2LjY0OTc1IDExLjQxNTlaIiBmaWxsPSIjMTkxOTE5IiBmaWxsLW9wYWNpdHk9IjAuNzUiLz4KPC9zdmc+Cg==");
+    font-size: 1rem;
+    top: 21px;
+    left: 390px;
+    position: absolute;
+}
