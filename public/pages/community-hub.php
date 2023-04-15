@@ -15,7 +15,7 @@
             <section class="community-section">
                 <div>
                     <h1>Community Hub</h1>
-                    <h2>These are the current talks in Surrrey</h2>
+                    <h2>These are the current talks in <span class="txt-green"><img class="location-icon" src="<?php echo get_public_url('/images/icons/location.svg')?>">Surrrey</span></h2>
                 </div>
                 <div class="community-card-container">
 
