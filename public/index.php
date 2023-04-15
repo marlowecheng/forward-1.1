@@ -27,15 +27,15 @@
                 <h1>Get Started with Forward</h1>
                 <ul class="grid">
                     <li class="col-4">
-                        <img src="<?php echo get_public_url('/images/icons/clarity-blocks.svg'); ?>" alt="clarity block icon">
+                        <img src="<?php echo get_public_url('/images/Icons/clarity-blocks.svg'); ?>" alt="clarity block icon">
                         <p>Browse our list of local expert mentors within your community and receive guidance</p>
                     </li>
                     <li class="col-4">
-                        <img src="<?php echo get_public_url('/images/icons/clarity-faq.svg'); ?>" alt="clarity faq icon">
+                        <img src="<?php echo get_public_url('/images/Icons/clarity-faq.svg'); ?>" alt="clarity faq icon">
                         <p>Don't know where to start? Take our survey to get matched with local mentors to help kickstart your journey!</p>
                     </li>
                     <li class="col-4">
-                        <img src="<?php echo get_public_url('/images/icons/clarity-feedback.svg'); ?>" alt="clarity feedback icon">
+                        <img src="<?php echo get_public_url('/images/Icons/clarity-feedback.svg'); ?>" alt="clarity feedback icon">
                         <p>Post your best work on our project showcase to get feedback and connect with fellow peers and mentors</p>
                     </li>
                 </ul>
@@ -46,7 +46,7 @@
                 <ul class="grid">
                     <li class="col-4">
                         <div>
-                            <img src="<?php echo get_public_url('/images/icons/clarity-quote.svg'); ?>" alt="clarity quote icon">
+                            <img src="<?php echo get_public_url('/images/Icons/clarity-quote.svg'); ?>" alt="clarity quote icon">
                         </div>
                         <p>I love mentoring because it feels amazing to see my mentees succeed. I was thrilled to be able to mentor a young coder through this mentorship program. It was an incredibly rewarding experience to be able to share my knowledge and expertise with someone who was just starting out in the field.</p>
                         <div class="testimonial-user">
