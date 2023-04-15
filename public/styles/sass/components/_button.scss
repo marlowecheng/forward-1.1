@@ -5,7 +5,7 @@
     align-self: center;
     width: fit-content;
     text-align: center;
-    padding: 1rem 2.5rem;
+    padding: 1rem 0;
     background: config.$green;
     border-radius: 0.06rem;
 
@@ -13,6 +13,7 @@
         color: config.$white;
         font-size: 1rem;
         line-height: 1.625rem;
+        padding: 1rem 2.5rem;
     }
 }
 
@@ -22,7 +23,7 @@
     align-self: center;
     width: fit-content;
     text-align: center;
-    padding: 1rem 1.5rem;
+    padding: 1rem 0;
     box-shadow:inset 0 0 0 .2rem config.$green;
     border-radius: 0.06rem;
 
@@ -30,6 +31,7 @@
         color: config.$green;
         font-size: 1rem;
         line-height: 1.625rem;
+        padding: 1rem 1.5rem;
     }
 }
 
@@ -39,7 +41,7 @@
     align-self: center;
     width: fit-content;
     text-align: center;
-    padding: 1rem 1.5rem;
+    padding: 1rem 0;
     box-shadow:inset 0 0 0 .2rem config.$black;
     border-radius: 0.06rem;
 
@@ -47,6 +49,7 @@
         color: config.$black;
         font-size: 1rem;
         line-height: 1.625rem;
+        padding: 1rem 1.5rem;
     }
 }
 
@@ -55,7 +58,7 @@
     align-self: center;
     width: fit-content;
     text-align: center;
-    padding: 1rem 2.5rem;
+    padding: 1rem 0;
     background: config.$green;
     border-radius: 0.125rem;
 
@@ -63,6 +66,7 @@
         color: config.$white;
         font-size: 1rem;
         line-height: 1.625rem;
+        padding: 1rem 2.5rem;
     }
 }
 
@@ -73,13 +77,14 @@
     width: fit-content;
     text-align: center;
     box-shadow:inset 0 0 0 .2rem config.$green;
-    padding: 1rem 2.5rem;
+    padding: 1rem 0;
     border-radius: 0.125rem;
 
     > a {
         color: config.$green;
         font-size: 1rem;
         line-height: 1.625rem;
+        padding: 1rem 2.5rem;
     }
 }
 
