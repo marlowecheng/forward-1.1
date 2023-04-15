@@ -19,13 +19,13 @@
                 <section>
                     <div class="mentor-bar-wrapper">
                         <div class="search-bar">
-                            <img src="<?php echo get_public_url('/images/Icons/Search.svg'); ?>" alt="">
+                            <img src="<?php echo get_public_url('/images/Icons/Search.svg'); ?>" alt="Search Icon">
                             <input type="text" placeholder="Search by role, job, language...">
                         </div>
                         <div class="d-flex filter-btn">
                             <div class="mentor-filter">
                                 <p>Specialization</p>
-                                <img src="https://img.icons8.com/material/256/expand-arrow.png" alt="">
+                                <img src="https://img.icons8.com/material/256/expand-arrow.png" alt="Expand Arrow">
                             </div>
                             <div class="mentor-filter">
                                 <p>Filter</p>

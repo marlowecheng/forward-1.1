@@ -76,9 +76,8 @@
                     </div>
                     <div class="progress-btns">
                         <div class="btn prev-btn">
-                            <!-- <img src="https://img.icons8.com/material/256/long-arrow-left--v2.png" alt=""> -->
                             <a class="nav-btn-secondary" href="<?php echo get_public_url('/pages/profile-page.php'); ?>">
-                                <img class="card-thumb" src="<?php echo get_public_url('/images/Icons/arrow-left.svg'); ?>" alt="">
+                                <img class="card-thumb" src="<?php echo get_public_url('/images/Icons/arrow-left.svg'); ?>" alt="Arrow Left Icon">
                                 Go Back
                             </a>
                         </div>

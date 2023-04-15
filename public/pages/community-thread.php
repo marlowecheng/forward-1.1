@@ -19,7 +19,7 @@
                 <div class="thread-content">
                     <div class="thread-head">
                         <div class="head-info">
-                            <img src="<?php echo get_public_url('/images/rikki-soriano-profile-image.jpg'); ?>" alt="" class="avatar">
+                            <img src="<?php echo get_public_url('/images/rikki-soriano-profile-image.jpg'); ?>" alt="User Avatar" class="avatar">
                             <p>Posted by @lilybrowndesigns 9 hours ago</p>
                             <div class="filter-tags">
                                 <ul>
@@ -67,7 +67,7 @@
                 </div>
                 <div class="user-comment border">
                         <div class="avatar-comment">
-                            <img src="" alt="">
+                            <img src="" alt="User Avatar">
                         </div>
                         <div class="comment-content">
                             <p class="txt-xs">@oliviah_ux 12 hours ago</p>
@@ -78,7 +78,7 @@
                 </div>
                 <div class="user-comment border">
                         <div class="avatar-comment">
-                            <img src="" alt="">
+                            <img src="" alt="User Avatar">
                         </div>
                         <div class="comment-content">
                             <p class="txt-xs">@benjileet 17 hours ago</p>
@@ -88,7 +88,7 @@
                 </div>
                 <div class="user-comment border">
                         <div class="avatar-comment">
-                            <img src="" alt="">
+                            <img src="" alt="User Avatar">
                         </div>
                         <div class="comment-content">
                             <p class="txt-xs">@alexwils2 19 hours ago</p>
@@ -105,7 +105,7 @@
                     <h4>Threads you might be interested in reading.</h4>
                     <div class="community-card hover-fx">
                         <div>
-                            <img class="community-thumb" src="<?php echo get_public_url('/images/overwhelm-article.png'); ?>">
+                            <img class="community-thumb" src="<?php echo get_public_url('/images/overwhelm-article.png'); ?>" alt="Article Illustration">
                         </div>  
                         <div class="community-card-info">
                             <div class="filter-tags">
@@ -121,7 +121,7 @@
                             </div>
                             <div class="community-card-meta">
                                 <p>posted by @miapatel 6 hours ago</p>
-                                <p><img class="message-icon" src="<?php echo get_public_url('/images/message-square.svg') ?>">6 comments</p>
+                                <p><img class="message-icon" src="<?php echo get_public_url('/images/message-square.svg') ?>" alt="Message Icon">6 comments</p>
                             </div>
                         </div>
                     </div>
@@ -140,7 +140,7 @@
                             </div>
                             <div class="community-card-meta">
                                 <p>posted by @lukemitchellpm 1 day ago</p>
-                                <p><img class="message-icon" src="<?php echo get_public_url('/images/message-square.svg') ?>">21 comments</p>
+                                <p><img class="message-icon" src="<?php echo get_public_url('/images/message-square.svg') ?>" alt="Message Icon">21 comments</p>
                             </div>
                         </div>
                     </div>

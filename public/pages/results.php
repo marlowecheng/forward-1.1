@@ -26,7 +26,7 @@
                     <a href="<?php echo get_public_url('/pages/mentor-list.php'); ?>" >See More Matches</a>
                 </div>
                 <section class="d-flex opts">
-                    <a href="<?php echo get_public_url('/pages/survey.php'); ?>" title="Edit Answers"><img src="<?php echo get_public_url('/images/Icons/arrow-left.svg'); ?>" alt="">Edit Answers</a>
+                    <a href="<?php echo get_public_url('/pages/survey.php'); ?>" title="Edit Answers"><img src="<?php echo get_public_url('/images/Icons/arrow-left.svg'); ?>" alt="Left Arrow Icon">Edit Answers</a>
                     <a href="<?php echo get_public_url('/pages/mentor-list.php'); ?>" title="See all Mentors">See All Mentors</a>
                 </section>
             </section>
