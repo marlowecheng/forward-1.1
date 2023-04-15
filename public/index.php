@@ -66,7 +66,7 @@
                         <p>I felt so lost during my job search, I felt like I had no one to turn to. But with Forward, I was matched with a mentor that helped me gain back my confidence and encouraged me to not feel discouraged. They also gave me honest feedback on my work, challenged me to push my boundaries, and supported me every step of the way.</p>
                         <div class="testimonial-user">
                             <div>
-                                <img class="testimonial-img-icon" src="<?php echo get_public_url('/images/mentor-1.jpg'); ?>" alt="smiling woman">
+                                <img class="testimonial-img-icon" src="<?php echo get_public_url('/images/mentor-1.jpg'); ?>" alt="smiling man">
                             </div>
                             <div class="testimonial-user-info">
                                 <p>Benjamin Moreno</p>
@@ -81,7 +81,7 @@
                         <p>I learned the latest design tools and techniques, gained valuable industry insights, and built a strong portfolio that showcased my skills and experience. Thanks to my mentor's guidance and support, I was able to land my dream job as a UI/UX designer, and I haven't looked back since.</p>
                         <div class="testimonial-user">
                             <div>
-                                <img class="testimonial-img-icon" src="<?php echo get_public_url('/images/mentee-2.jpg'); ?>" alt="smiling woman">
+                                <img class="testimonial-img-icon" src="<?php echo get_public_url('/images/mentee-2.jpg'); ?>" alt="smiling man">
                             </div>
                             <div class="testimonial-user-info">
                                 <p>Elijah Kingston</p>
